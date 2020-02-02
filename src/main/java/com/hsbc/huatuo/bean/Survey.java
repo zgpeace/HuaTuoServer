@@ -7,8 +7,8 @@ public class Survey implements Serializable {
   private static final long serialVersionUID = 1L;
 
   private Long id;
-  private String staffId;
-  private String surveyId;
+  private String staffid;
+  private String surveyid;
   private String city;
 
   public Long getId() {
@@ -16,11 +16,11 @@ public class Survey implements Serializable {
   }
 
   public String getStaffId() {
-    return staffId;
+    return staffid;
   }
 
   public String getSurveyId() {
-    return surveyId;
+    return surveyid;
   }
 
   public String getCity() {
@@ -32,11 +32,11 @@ public class Survey implements Serializable {
   }
 
   public void setStaffId(String staffId) {
-    this.staffId = staffId;
+    this.staffid = staffId;
   }
 
   public void setSurveyId(String surveyId) {
-    this.surveyId = surveyId;
+    this.surveyid = surveyId;
   }
 
   public void setCity(String city) {
